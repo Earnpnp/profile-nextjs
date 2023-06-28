@@ -7,8 +7,9 @@ function Experience() {
   return (
     <>
       <Element name="experience">
-        <div
-          className="text-6xl ml-[183px] mt-24 font-semibold text-white
+        <div className="flex justify-center md:justify-start md:ml-[183px]">
+          <div
+            className="text-6xl my-10 font-semibold text-white
                 inline-block
                 relative
                 transition-all
@@ -24,8 +25,9 @@ function Experience() {
                 before:bg-[rgb(183,81,153)]
                 hover:before:w-[60px]
                 hover:before:opacity-100"
-        >
-          Experience
+          >
+            Experience
+          </div>
         </div>
 
         <section className="flex flex-col items-center justify-center w-full my-24">
@@ -42,7 +44,7 @@ function Experience() {
                       <h4 class="mb-1.5 text-2xl font-bold text-white">
                         {n.title}
                       </h4>
-                      <h1 class="mb-1.5 text-xl font-semibold text-white">
+                      <h1 class="mb-1.5 text-xl font-semibold text-neutral-300">
                         {n.subtitle}
                       </h1>
                       <p class="mb-3 text-neutral-400">{n.description1}</p>

@@ -5,7 +5,7 @@ export const EducationData = [
     title: "Software Park Codecamp",
     subtitle: "Full-Stack Developer",
     description:
-      "JavaScript,React.js, Node.js, MySQL, Agile teamwork, Git version control, basic UX/UI design principles using Figma, and database design.",
+      "JavaScript, ReactJs, NodeJs, MySQL, Agile teamwork, Git version control, basic UX/UI design principles using Figma, and database design.",
   },
   {
     id: 2,
@@ -48,7 +48,8 @@ export const ProjectData = [
     description2: "The website's design was meticulously crafted using Figma",
     description3:
       "An Entity-Relationship (ER) diagram for the database and employed MySQL as the backend database system",
-    link: "/ecom",
+    link1: "https://github.com/Earnpnp/personal-project-frontend",
+    link2: "https://github.com/Earnpnp/personal-project-backend",
   },
   {
     id: 2,
@@ -61,7 +62,8 @@ export const ProjectData = [
       "Responsible for creating authentication features, including login and logout",
     description3:
       "Work in Agile development environment using Jira as Scrum methodologies",
-    link: "/freelance",
+    link1: "https://github.com/Earnpnp/dev-cat-web",
+    link2: "https://github.com/Earnpnp/dev-cat-backend",
   },
 ];
 
