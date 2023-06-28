@@ -7,7 +7,7 @@ function Contact() {
   return (
     <>
       <Element name="contact">
-        <section className="flex flex-col items-center justify-center w-full bg-slate-900 py-8">
+        <section className="flex flex-col bottom-0 items-center justify-center w-full bg-slate-900 py-8">
           <div className="w-full flex items-center justify-center my-4 flex-wrap gap-4">
             <HiOutlinePhone className="text-white" />
             <p className="text-lg text-white">097-0621-603</p>
