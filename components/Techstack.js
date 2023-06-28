@@ -10,7 +10,7 @@ function Techstack() {
             TechstackData.map((n) => (
               <div
                 key={n.id}
-                className="border border-gray px-6 py-2 inline-block text-lg bg-transparent hover:text-white hover:bg-[#B75199] rounded-lg cursor-pointer duration-200
+                className="bg-white border border-gray px-6 py-2 inline-block text-lg bg-transparent hover:text-white hover:bg-[#B75199] rounded-lg cursor-pointer duration-200 
                 ont-medium text-slate-800 
                border-zinc-800  shadow-[4px_4px_0px_2px_#1a202c] p-2 md:max-w-[500px] 
               hover:border-zinc-600  ease-in-out active:shadow-none active:translate-x-1 active:translate-y-1"

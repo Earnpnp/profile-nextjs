@@ -39,7 +39,7 @@ function About() {
               </p>
               <p className="fullstackdev">Full Stack Developer</p>
               <button
-                className="font-medium mt-20 text-white hover:text-slate-400 
+                className="font-medium mt-20 text-black hover:text-slate-400 bg-white
                 cursor-pointer  px-2 py-1 rounded-lg 
                border border-zinc-800  shadow-[7px_7px_0px_2px_#1a202c] p-2 md:max-w-[500px] 
               hover:border-zinc-600 duration-100 ease-in-out active:shadow-none active:translate-x-1 active:translate-y-1"
