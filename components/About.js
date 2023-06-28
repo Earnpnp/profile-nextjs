@@ -16,7 +16,7 @@ function About() {
   return (
     <>
       <Element name="about">
-        <main className="w-full mt-5 flex items-center justify-center">
+        <main className="w-full flex items-center justify-center">
           {/* About section */}
           <section
             className="max-w-sm md:max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 my-24 "
