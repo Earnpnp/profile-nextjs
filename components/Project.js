@@ -71,19 +71,19 @@ function Project() {
                         rel="noopener noreferrer"
                         className="mr-2"
                       >
-                        <AiFillGithub className="text-5xl" />
+                        <AiFillGithub className="text-5xl text-slate-900" />
                       </a>
                     </div>
                   </div>
                   <div className="flex gap-10">
                     <h1 className="text-[#B75199] font-bold">Technologies</h1>
-                    <p className="font-medium">{n.Tech}</p>
+                    <p className="font-medium text-slate-800">{n.Tech}</p>
                   </div>
 
                   <ul className="pt-2 pl-4 list-disc">
-                    <li>{n.description1}</li>
-                    <li>{n.description2}</li>
-                    <li>{n.description3}</li>
+                    <li className="text-slate-800">{n.description1}</li>
+                    <li className="text-slate-800">{n.description2}</li>
+                    <li className="text-slate-800">{n.description3}</li>
                   </ul>
                 </div>
               ))}
