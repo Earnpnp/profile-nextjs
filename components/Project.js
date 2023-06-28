@@ -16,7 +16,7 @@ function Project() {
     <>
       <Element name="projects">
         <div
-          className="text-6xl ml-[183px] mt-24 font-semibold justify-center
+          className="text-6xl ml-[183px] mt-24 font-semibold text-white
                 inline-block
                 relative
                 transition-all
@@ -42,7 +42,7 @@ function Project() {
               ProjectData.map((n) => (
                 <div
                   key={n.id}
-                  className="border border-zinc-800 rounded-3xl shadow-[7px_7px_0px_2px_#1a202c] p-6 max-w-[800px]
+                  className="border border-zinc-800 rounded-3xl shadow-[7px_7px_0px_2px_black] p-6 max-w-[800px] bg-slate-200
               hover:border-zinc-600 duration-100 ease-in-out"
                 >
                   <video
